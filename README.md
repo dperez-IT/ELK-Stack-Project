@@ -116,3 +116,4 @@ Which URL do you navigate to in order to check that the ELK server is running?
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
+![Example of Playbook](/Ansible/roles/filebeat-playbook.yml)
