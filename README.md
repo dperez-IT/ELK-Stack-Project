@@ -6,8 +6,8 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the configuration file may be used to install only certain pieces of it, such as Filebeat.
 
-  ![Filebeat](/Ansible/roles/filebeat-playbook.yml)
-  ![Metricbeat](/Ansible/roles/metricbeat-playbook.yml)
+  [Filebeat](/Ansible/roles/filebeat-playbook.yml)
+  [Metricbeat](/Ansible/roles/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Network Topology
@@ -105,8 +105,10 @@ SSH into the control node and follow the steps below:
 - Update the "hosts" file to include the IP addresses of the web machine under "elk". 
 - Run the playbook, and navigate to the ELK Server VM to check that the installation worked as expected.
 
+![Images](/Images/hosts.PNG)
+
 Which file is the playbook? Where do you copy it? 
-- The playbook is named "install-elk.yml". That file is located within the "roles" directory within the "/etc/ansible" file path. ![roles](/Ansible/roles/install-elk.yml)
+- The playbook is named "install-elk.yml". That file is located within the "roles" directory within the "/etc/ansible" file path. [roles](/Ansible/roles/install-elk.yml)
 
 Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
 - To run a playbook on a specific machine, the Ansible "hosts" file must be updated. Within the file, the IP address of the machine must be added to the corresponding hosts name which will later be used by the playbook to identify which machine is receiving the installation.  
@@ -116,4 +118,4 @@ Which URL do you navigate to in order to check that the ELK server is running?
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
-![Example of Playbook](/Ansible/roles/filebeat-playbook.yml)
+[Example of Playbook](/Ansible/roles/filebeat-playbook.yml)
