@@ -117,5 +117,6 @@ Which URL do you navigate to in order to check that the ELK server is running?
 - http://52.233.88.41:5601/app/kibana
 
 
+*Bonus*
 
-![Example of Playbook](/Ansible/roles/filebeat-playbook.yml)
+[Example of Playbook](/Ansible/roles/filebeat-playbook.yml)
