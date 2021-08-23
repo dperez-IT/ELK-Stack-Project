@@ -105,7 +105,7 @@ SSH into the control node and follow the steps below:
 - Update the "hosts" file to include the IP addresses of the web machine under "elk". 
 - Run the playbook, and navigate to the ELK Server VM to check that the installation worked as expected.
 
-![Images](/Images/hosts.PNG)
+![Images](/Images/hosts.png)
 
 Which file is the playbook? Where do you copy it? 
 - The playbook is named "install-elk.yml". That file is located within the "roles" directory within the "/etc/ansible" file path. [roles](/Ansible/roles/install-elk.yml)
