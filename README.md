@@ -116,6 +116,9 @@ Which file do you update to make Ansible run the playbook on a specific machine?
 Which URL do you navigate to in order to check that the ELK server is running?
 - http://52.233.88.41:5601/app/kibana
 
+![Images](/Images/KibanaDashboard.PNG)
+
+
 
 *Bonus*
 
